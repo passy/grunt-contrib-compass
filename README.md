@@ -244,48 +244,56 @@ Makes files under the specified folder findable by Sass's @import directive.
 #### debugInfo
 
 Type: `Boolean`
+Default: `false`
 
 Causes the line number and file where a selector is defined to be emitted into the compiled CSS in a format that can be understood by the browser. Automatically disabled when using `outputStyle: 'compressed'`.
 
 #### quiet
 
 Type: `Boolean`
+Default: `false`
 
 Quiet mode.
 
 #### trace
 
 Type: `Boolean`
+Default: `false`
 
 Show a full stacktrace on error.
 
 #### force
 
 Type: `Boolean`
+Default: `false`
 
 Allows Compass to overwrite existing files.
 
 #### dryRun
 
 Type: `Boolean`
+Default: `false`
 
 Dry Run. Tells you what it plans to do.
 
 #### boring
 
 Type: `Boolean`
+Default: `false`
 
 Turn off colorized output.
 
 #### bundleExec
 
 Type: `Boolean`
+Default: `false`
 
 Run `compass compile` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html): `bundle exec compass compile`.
 
 #### clean
 
 Type: `Boolean`
+Default: `false`
 
 Remove generated files and the sass cache. Runs `compass clean` instead of `compass compile`.
 
